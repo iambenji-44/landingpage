@@ -6,7 +6,7 @@
 }
 
 /* Header */
-.header {
+.header, .footer{
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -198,11 +198,11 @@ a{
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
-    margin: 60px;
+    margin: 80px;
     background-color: #3882f6;
     border-radius: 10px;
     gap: 40px;
-    max-width: 1000 px;
+    max-width: 1000px;
 }
 
 .state-cta{
@@ -232,3 +232,7 @@ a{
 }
 
 /* Footer */
+.foot{
+    font-size: 18px;
+    color: #E5E7EB;
+}
