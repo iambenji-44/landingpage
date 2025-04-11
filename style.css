@@ -95,7 +95,7 @@ a{
     align-items: center;
     width: 400px;
     height: 200px;
-    background-color: #E5E7EB;
+    background-color: #929294;
     margin: 20px;
 }
 
@@ -104,3 +104,49 @@ a{
 }
 
 /* Information */
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.info-head{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+}
+
+.box{
+    border: 2px #3882f6 solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.text{
+    text-align: center;
+    font-size: 18px;
+    color: #929294;
+    margin: 5px;
+}
+
+/* Quote */
