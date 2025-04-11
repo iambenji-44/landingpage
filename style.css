@@ -150,3 +150,37 @@ a{
 }
 
 /* Quote */
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    padding: 50px;
+
+}
+
+.state{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px;
+    max-width: 1000px;
+}
+
+.statement{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.by{
+    font-size: 18px;
+    font-weight: 900;
+    color: #1F2937;
+    align-self: flex-end;
+}
+
+/* Action */
