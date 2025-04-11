@@ -6,7 +6,7 @@
 }
 
 /* Header */
-.header{
+.header {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -125,6 +125,7 @@ a{
     align-items: center;
     flex-wrap: wrap;
     gap: 25px;
+    margin: 40px;
 }
 
 .content{
@@ -184,3 +185,50 @@ a{
 }
 
 /* Action */
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-cta{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 60px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    gap: 40px;
+    max-width: 1000 px;
+}
+
+.state-cta{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-right: auto;
+}
+
+.cta{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.text-cta{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 2px;
+}
+
+.action button{
+    align-self: center;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+/* Footer */
